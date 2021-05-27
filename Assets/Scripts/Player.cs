@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
         }
         if (Input.GetButtonUp("Fire1"))
         {
-
+            StopCoroutine(firingCoroutine);
         }
     }
 
