@@ -116,6 +116,11 @@ MonoBehaviour:
   laserPrefab: {fileID: 42468046316570004, guid: 31749a3a1a0224240beefa0500b3f45a, type: 3}
   projectileSpeed: -10
   explosionPrefab: {fileID: 6283936111322727379, guid: 56ab753e2c0ab465684950919a379328, type: 3}
+  durationOfExplotion: 1
+  deathSound: {fileID: 8300000, guid: 33d875f8852354f1d816bd83bc872db1, type: 3}
+  deathSoundVolume: 0.75
+  shootSound: {fileID: 8300000, guid: b34b69bba30884e6bb6d2603050ad140, type: 3}
+  shootSoundVolume: 0.25
 --- !u!58 &2431966339048743855
 CircleCollider2D:
   m_ObjectHideFlags: 0
