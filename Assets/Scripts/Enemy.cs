@@ -32,10 +32,8 @@ public class Enemy : MonoBehaviour
     private void CountDownAndShoot()
     {
         shotCounter -= Time.deltaTime;
-        Debug.Log(shotCounter);
         if (shotCounter <= 0f)
         {
-            Debug.Log(123);
             Fire();
             shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
         }
