@@ -104,6 +104,7 @@ public class Player : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
+            health = 0;
             Die();
         }
     }
@@ -115,5 +116,10 @@ public class Player : MonoBehaviour
         Destroy(gameObject);
 
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+    }
+
+    public float GetHealth()
+    {
+        return health;
     }
 }

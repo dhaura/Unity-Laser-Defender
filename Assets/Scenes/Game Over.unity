@@ -323,11 +323,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 141992581, guid: acfa09f76ec0d48d9af7146de2cf84f8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -803
+      value: 157
       objectReference: {fileID: 0}
     - target: {fileID: 141992581, guid: acfa09f76ec0d48d9af7146de2cf84f8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -540
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 141992581, guid: acfa09f76ec0d48d9af7146de2cf84f8, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 141992581, guid: acfa09f76ec0d48d9af7146de2cf84f8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 141992581, guid: acfa09f76ec0d48d9af7146de2cf84f8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 141992581, guid: acfa09f76ec0d48d9af7146de2cf84f8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 141992582, guid: acfa09f76ec0d48d9af7146de2cf84f8, type: 3}
       propertyPath: m_FontData.m_Alignment
